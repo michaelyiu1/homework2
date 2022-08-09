@@ -1,16 +1,39 @@
+:root{
+    --head-foot-color: rgb(255, 130, 150);
+}
+
+
 header{
     display: flex;
-    background-color: rgb(255, 130, 150);
+    background-color: var(--head-foot-color);
     border-style: ridge;
-    border-radius: 10px;;
+    color: black;
+    border-radius: 10px;
     align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    background-image: url("Ranch-3.jpg");
+    color: white;
 }
 
 nav{
-    justify-content: flex-end;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding-right: 50px;
+    padding: 1px;
+    border-radius: 10px;
+    border-style: ridge;
     align-content: space-between;
+    background-color: black;
+    color: white;
+    border-width: 1px;
+
+
 }
 
 nav li{
@@ -20,18 +43,56 @@ nav li{
 }
 
 h1{
-    font-size: 300%;
-}
-
-.nav-title{
-    margin-right: auto;
-    margin-left: 50px;
+    font-size: 250%;
 }
 
 nav li:hover{
     font-size: 115%;
-    color: rgb(105, 0, 105);
+}
+
+.cards{
+    display: flex;
+}
+
+aside{
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+    border: ridge;
+    color: white;
+    align-items: stretch;
+
+}
+
+.cards{
+    display: flex;
 }
 
 
+footer{
+    list-style: none;
+    background-color: var(--head-foot-color);
+    border-style: ridge;
+    border-radius: 10px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    color: black;
+
+}
+
+footer li{
+    display: inline-block;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-me{
+    padding-left: 50px;
+}
 
