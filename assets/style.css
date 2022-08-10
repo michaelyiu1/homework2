@@ -51,12 +51,13 @@ nav li:hover{
     cursor: grab;
 }
 
-main::first-line{
-    padding-left: 25px;
+main h2{
+    text-align: center;
 }
 
 .cards{
     display: flex;
+    justify-content: space-evenly;
 }
 
 aside{
@@ -65,6 +66,8 @@ aside{
     background-color: grey;
     border: ridge;
     color: white;
+    margin-bottom: 200px;
+    margin-top: 50px;
 
 }
 
@@ -78,11 +81,13 @@ section{
     border-style: double;
     margin:20px;
     color:black;
-    border-radius: 10px;;
+    border-radius: 10px;
+    max-width: 40%;
 }
 
 section::first-line{
     text-decoration: underline;
+    text-align: center;
 }
 
 footer{
@@ -91,7 +96,7 @@ footer{
     border-style: ridge;
     border-radius: 10px;
     bottom: 0;
-    position: absolute;
+    position:fixed;
     width: 100%;
     margin-left: 0px;
     text-align: center;
@@ -100,7 +105,7 @@ footer{
 }
 
 footer li{
-    display: inline-block;
+    display: flex;
 }
 
 footer ul{
@@ -112,3 +117,26 @@ footer ul{
     padding-left: 50px;
 }
 
+/*smartphones - layout of body changed*/
+@media screen and (max-width: 768px) {
+    .cards{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+  
+  @media screen and (max-width: 500px){
+    nav li{
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer li{
+        padding: 5px;
+    }
+  }
