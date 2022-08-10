@@ -52,35 +52,35 @@ nav li:hover{
 }
 
 main h2{
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-.cards{
+.about-me{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 aside{
-    display: flex;
-    justify-content: flex-end;
-    background-color: grey;
     border: ridge;
     color: white;
-    margin-bottom: 200px;
-    margin-top: 50px;
-
+    max-width: 50%;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 20px;
 }
 
 .cards{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 150px;
 }
 
 section{
     padding: 20px;
     border-style: double;
-    margin:20px;
-    color:black;
+    margin:50px;
+    color: white;
     border-radius: 10px;
     max-width: 40%;
 }
@@ -123,6 +123,19 @@ footer ul{
         text-align: center;
         display: flex;
         flex-wrap: wrap;
+        min-width: 80%;
+    }
+
+    section{
+        padding: 20px;
+        border-style: double;
+        margin:20px;
+        border-radius: 10px;
+        max-width: 75%;
+    }
+
+    aside{
+        max-width: 75%;
     }
 }
   
