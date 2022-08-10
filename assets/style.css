@@ -48,6 +48,11 @@ h1{
 
 nav li:hover{
     font-size: 115%;
+    cursor: grab;
+}
+
+main::first-line{
+    padding-left: 25px;
 }
 
 .cards{
@@ -60,14 +65,25 @@ aside{
     background-color: grey;
     border: ridge;
     color: white;
-    align-items: stretch;
 
 }
 
 .cards{
     display: flex;
+    justify-content: space-evenly;
 }
 
+section{
+    padding: 20px;
+    border-style: double;
+    margin:20px;
+    color:black;
+    border-radius: 10px;;
+}
+
+section::first-line{
+    text-decoration: underline;
+}
 
 footer{
     list-style: none;
