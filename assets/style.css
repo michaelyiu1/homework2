@@ -17,19 +17,19 @@ header{
 
 body{
     margin:0;
+    background-image: url("Ranch-3.jpg");
+    background-repeat: no-repeat;
 }
 
 nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1px;
     border-radius: 10px;
     border-style: ridge;
     align-content: space-between;
     background-color: black;
     color: white;
-    border-width: 1px;
     height: 50px;
 
 
@@ -37,9 +37,9 @@ nav{
 
 nav li{
     list-style: none;
+    width: 140px;
     display: inline-block;
-    margin-right: 50px;
-    width: 100px;
+    text-align: center;
 }
 
 h1{
@@ -54,12 +54,13 @@ nav li:hover{
 main{
     margin: 0px;
     background-image: url("Ranch-3.jpg");
+    background-repeat: repeat-y;
 }
 
 main h2{
     display: flex;
     justify-content: center;
-    padding-top: 0px;
+    padding-top: 20px;
     margin-top: 0px;
 }
 
@@ -109,13 +110,17 @@ article{
     padding: 20px;
     border-style: solid;
     margin: 20px;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 article:hover{
     background-color: aliceblue;
     color: black;
     border-color: rgb(235, 78, 104);
-    font-size: 150%
+    font-size: 125%
 }
 
 section::first-line{
@@ -123,16 +128,16 @@ section::first-line{
     text-align: center;
 }
 
+
+
 footer{
     list-style: none;
     background-color: var(--head-foot-color);
     border-style: ridge;
     border-radius: 10px;
     width: 100%;
-    margin-left: 0px;
     text-align: center;
     color: black;
-
 }
 
 footer li{
@@ -142,6 +147,11 @@ footer li{
 footer ul{
     display: flex;
     justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    align-items: flex-end;
 }
 
 .contact-me{
