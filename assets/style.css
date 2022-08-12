@@ -40,6 +40,7 @@ nav li{
     width: 140px;
     display: inline-block;
     text-align: center;
+    font-size: 125%;
 }
 
 h1{
@@ -62,6 +63,7 @@ main h2{
     justify-content: center;
     padding-top: 20px;
     margin-top: 0px;
+    color: white;
 }
 
 .about-me{
@@ -184,6 +186,11 @@ footer ul{
     nav li{
         display: flex;
         flex-direction: column;
+        padding: 2px;
+    }
+
+    nav{
+        height: 100px;
     }
     footer ul{
         display: flex;
