@@ -47,6 +47,7 @@ h1{
     font-size: 250%;
 }
 
+/*Nav Bar*/
 nav li:hover{
     font-size: 115%;
     cursor: grab;
@@ -66,6 +67,7 @@ main h2{
     color: white;
 }
 
+/*About me aside*/
 .about-me{
     display: flex;
     justify-content: center;
@@ -80,6 +82,8 @@ aside{
     padding: 20px;
 }
 
+
+/*Project and more Cards*/
 .cards{
     display: flex;
     justify-content: space-evenly;
@@ -99,6 +103,7 @@ a{
     color: inherit;
     text-decoration: inherit;
 }
+
 .projects{
     display: flex;
     flex-wrap: wrap;
@@ -131,7 +136,7 @@ section::first-line{
 }
 
 
-
+/*Footer Contents*/
 footer{
     list-style: none;
     background-color: var(--head-foot-color);
