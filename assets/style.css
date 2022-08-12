@@ -121,6 +121,7 @@ article{
     width: 100px;
     align-items: center;
     justify-content: center;
+
 }
 
 article:hover{
@@ -130,11 +131,16 @@ article:hover{
     font-size: 125%
 }
 
+/*button:focus{
+    background-color: none;
+    font-size: 150%;
+
+}
+*/
 section::first-line{
     text-decoration: underline;
     text-align: center;
 }
-
 
 /*Footer Contents*/
 footer{
