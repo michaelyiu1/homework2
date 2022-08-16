@@ -1,1 +1,15 @@
-This is my first attempt at a personal website using only HTML and CSS. I've added a basic header/navbar/footer with content in the body that outlines my projects and give some personal information about myself. 
+# Portfolio
+
+
+## Screenshot
+
+![Alt text](/assets/wee.PNG "Optional Title")
+
+
+
+### Links
+
+Github: https://github.com/michaelyiu1/homework2
+
+Deployed Link: https://michaelyiu1.github.io/homework2/
+
