@@ -71,6 +71,8 @@ main h2{
 .about-me{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 aside{
@@ -82,6 +84,12 @@ aside{
     padding: 20px;
 }
 
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+}
 
 /*Project and more Cards*/
 .cards{
@@ -108,6 +116,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -117,21 +126,23 @@ article{
     padding: 20px;
     border-style: solid;
     margin: 20px;
-    height: 100px;
-    width: 100px;
     align-items: center;
     justify-content: center;
+    height: 100px;
+    width: 100px;
 
 }
-
 
 article:hover{
     background-color: aliceblue;
     color: black;
     border-color: rgb(235, 78, 104);
-    font-size: 125%
 }
 
+.project-1{
+    height: 200px;
+    width: 200px;
+}
 /*button:focus{
     background-color: none;
     font-size: 150%;
