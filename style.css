@@ -2,7 +2,6 @@
     --head-foot-color: rgb(255, 130, 150);
 }
 
-
 header{
     display: flex;
     background-color: var(--head-foot-color);
@@ -31,7 +30,6 @@ nav{
     background-color: black;
     color: white;
     height: 50px;
-
 
 }
 
@@ -143,12 +141,7 @@ article:hover{
     height: 200px;
     width: 200px;
 }
-/*button:focus{
-    background-color: none;
-    font-size: 150%;
 
-}
-*/
 section::first-line{
     text-decoration: underline;
     text-align: center;
