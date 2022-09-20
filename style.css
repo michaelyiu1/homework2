@@ -53,8 +53,12 @@ nav li:hover{
 
 main{
     margin: 0px;
-    background-image: url("./assets/Ranch-3.jpg");
-    background-repeat: repeat-y;
+    background: url("./assets/Ranch-3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: darken;
 }
 
 main h2{
